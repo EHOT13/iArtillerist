@@ -1,0 +1,41 @@
+Mono path[0] = 'E:/Unity3D/UnityProjects/iArtillerist/iArtillerist/iArtillerist_Data/Managed'
+Mono path[1] = 'E:/Unity3D/UnityProjects/iArtillerist/iArtillerist/iArtillerist_Data/Mono'
+Mono config path = 'E:/Unity3D/UnityProjects/iArtillerist/iArtillerist/iArtillerist_Data/Mono/etc'
+PlayerConnection initialized from E:/Unity3D/UnityProjects/iArtillerist/iArtillerist/iArtillerist_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55242
+Multi-casting "[IP] 192.168.0.104 [Port] 55242 [Flags] 2 [Guid] 3740622006 [EditorId] 1694883905 [Version] 1048832 [Id] WindowsPlayer(EHOT-PC12012016) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55242]
+PlayerConnection already initialized - listening to [0.0.0.0:55242]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 650 Ti (ID=0x11c6)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.024 seconds
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Unity3D\UnityProjects\iArtillerist\iArtillerist\iArtillerist_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.335961 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2994 -> priority: 1 
