@@ -29,6 +29,7 @@ public class Artillery : MonoBehaviour {
     public Button fire;
     // Use this for initialization
     void Start () {
+        Time.timeScale = 1;
         Button btn = fire.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
         //degrees = Convert.ToSingle(stringToEdit);

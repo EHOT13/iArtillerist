@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iArtillerist.Plugins", "iArtillerist.Plugins.csproj", "{A0A162A7-7EEA-B709-70F9-CE086AA6485D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iArtillerist", "iArtillerist.csproj", "{62FACD0A-447E-5CF1-E892-5F1683B0BC3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iArtillerist.Editor.Plugins", "iArtillerist.Editor.Plugins.csproj", "{3D831897-B8A9-525C-39F4-3A22AD7991D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0A162A7-7EEA-B709-70F9-CE086AA6485D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0A162A7-7EEA-B709-70F9-CE086AA6485D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0A162A7-7EEA-B709-70F9-CE086AA6485D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0A162A7-7EEA-B709-70F9-CE086AA6485D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{62FACD0A-447E-5CF1-E892-5F1683B0BC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{62FACD0A-447E-5CF1-E892-5F1683B0BC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62FACD0A-447E-5CF1-E892-5F1683B0BC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62FACD0A-447E-5CF1-E892-5F1683B0BC3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D831897-B8A9-525C-39F4-3A22AD7991D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D831897-B8A9-525C-39F4-3A22AD7991D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D831897-B8A9-525C-39F4-3A22AD7991D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D831897-B8A9-525C-39F4-3A22AD7991D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

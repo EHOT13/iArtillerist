@@ -7,5 +7,6 @@ public class MenuScript : MonoBehaviour {
     public  void ChangeScene(string sceneName)
     {
         Application.LoadLevel(sceneName);
+        GameManager.score = 0;
     }
 }

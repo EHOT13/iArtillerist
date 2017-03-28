@@ -13,8 +13,7 @@ public class SpawnTigers : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //TODO: Поиск по тегу и спаун если таких объектов нет
-		if (GameObject.Find("Tiger(Clone)") == false)
+        if (GameObject.Find("Tiger(Clone)") == false)
         {
             Transform TigerInstance = Instantiate(tiger, GameObject.Find("TigerSpawner").transform.position, Quaternion.identity);
         }

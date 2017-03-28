@@ -10,7 +10,7 @@ public class ShellHelper : MonoBehaviour {
 	}
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject,2);
+        Destroy(gameObject,1);
     }
     // Update is called once per frame
     void Update () {
