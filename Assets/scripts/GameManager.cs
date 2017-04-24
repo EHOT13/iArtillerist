@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
     public Text pointsText;
-    public static int score = 0;
+    public static int score;
+    private int scoreLoc;
+    
     // Use this for initialization
     void Start () {
-		
-	}
+    }
     // Update is called once per frame
     void Update () {
-        pointsText.text = "Score: "+score;
+        scoreLoc = PlayerPrefs.GetInt("ScoreCurrent");
+        pointsText.text = "Score: " + scoreLoc;
 	}
 }

@@ -8,5 +8,6 @@ public class MenuScript : MonoBehaviour {
     {
         Application.LoadLevel(sceneName);
         GameManager.score = 0;
+        PlayerPrefs.SetInt("ScoreCurrent",0);
     }
 }
