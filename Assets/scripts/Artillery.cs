@@ -30,19 +30,27 @@ public class Artillery : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        
-        if (fireButton == true && Time.time > nextTime)
+        try
         {
-           
-            degrees = Convert.ToSingle(mainInputField.text);
-            GameObject.Find("Stvol").transform.transform.Rotate(0, 0, 0);
-            GameObject.Find("Stvol").transform.rotation = Quaternion.identity;
-            GameObject.Find("Stvol").transform.transform.Rotate(0, 0, degrees);
+            if (fireButton == true && Time.time > nextTime)
+            {
+                fireButton = false;
+                degrees = Convert.ToSingle(mainInputField.text);
+                GameObject.Find("Stvol").transform.transform.Rotate(0, 0, 0);
+                GameObject.Find("Stvol").transform.rotation = Quaternion.identity;
+                GameObject.Find("Stvol").transform.transform.Rotate(0, 0, degrees);
+
+                
+                Transform BulletInstance = (Transform)Instantiate(shell, GameObject.Find("spawner").transform.position, Quaternion.identity);
+                BulletInstance.GetComponent<Rigidbody2D>().AddForce(GameObject.Find("spawner").transform.right * power);
+                nextTime = Time.time + timeRate;
+                
+            }
+        }
+        catch   (FormatException)
+        {
+            Debug.Log("Input degrees!");
             
-            fireButton = false;
-            Transform BulletInstance = (Transform)Instantiate(shell, GameObject.Find("spawner").transform.position, Quaternion.identity);
-            BulletInstance.GetComponent<Rigidbody2D>().AddForce(GameObject.Find("spawner").transform.right * power);
-            nextTime = Time.time + timeRate;
         }
 
     }
